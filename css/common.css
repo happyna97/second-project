@@ -1,0 +1,82 @@
+@font-face {
+  font-family: "pretendard";
+  font-weight: 700;
+  font-display: swap;
+  src: local("Pretendard Bold"),
+    url("../fonts/Pretendard-Bold.woff") format("woff"),
+    url("../fonts/Pretendard-Bold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "pretendard";
+  font-weight: 600;
+  font-display: swap;
+  src: local("Pretendard Medium"),
+    url("../fonts/Pretendard-Medium.woff") format("woff"),
+    url("../fonts/Pretendard-Medium.woff2") format("woff2");
+}
+@font-face {
+  font-family: "pretendard";
+  font-weight: 400;
+  font-display: swap;
+  src: local("Pretendard Regular"),
+    url("../fonts/Pretendard-Regular.woff") format("woff"),
+    url("../fonts/Pretendard-Regular.woff2") format("woff2");
+}
+body {
+  font-family: pretendard, "sans-serif";
+  font-weight: 600;
+  color: #333;
+}
+
+.s1 {
+  font-size: 3.6458vw;
+}
+
+.s2 {
+  font-size: 2.5vw;
+}
+
+.s3 {
+  font-size: 1.6666vw;
+}
+
+.s4 {
+  font-size: 1.25vw;
+}
+
+.s5 {
+  font-size: 0.8854vw;
+}
+
+.p-size-100 {
+  font-size: 5.2083vw;
+}
+
+.p-size-190 {
+  font-size: 9.8958vw;
+}
+
+.p-size-200 {
+  font-size: 10.4166vw;
+}
+
+.inner {
+  max-width: 1420px;
+  margin: 0 auto;
+}
+
+.cf::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.ponint-color {
+  color: #0c4da2;
+}
+
+@media (max-width: 1420px) {
+  .inner {
+    width: 90.8vw;
+  }
+}
